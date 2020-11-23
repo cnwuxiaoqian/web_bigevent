@@ -9,7 +9,7 @@ $(function () {
         }
         //全局统一挂载complete回调函数
         options.complete = function (res) {
-             console.log(res);
+           
             if (res.responseJSON.status === 1 && res.responseJSON.message == "身份认证失败！") {
                 //强制清空token
               
